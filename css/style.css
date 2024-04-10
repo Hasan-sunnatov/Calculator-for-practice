@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  background-image: -o-linear-gradient(359deg, rgb(72, 154, 78) 5.2%, rgb(251, 206, 70) 95.9%);
+  background-image: linear-gradient(91deg, rgb(72, 154, 78) 5.2%, rgb(251, 206, 70) 95.9%);
+}
+.container {
+  width: 1200px;
+  height: 100vh;
+  margin: 0px auto;
+}
+.header__start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.header__form {
+  width: 500px;
+  height: 440px;
+  border-radius: 10px;
+  background-color: #333333;
+}
+.header__text {
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #adfbda), color-stop(30%, #35c3ff), color-stop(50%, #fda399), color-stop(70%, #76d880), color-stop(90%, #ebf38b), to(#adfbda));
+  background-image: -o-linear-gradient(right, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+  background-image: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-size: 100%;
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 800;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 18px;
+  font-size: 44px;
+}
+#display {
+  width: 94%;
+  height: 50px;
+  margin-left: 13px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  text-indent: 20px;
+  font-size: 23px;
+}
+.header__style {
+  color: #fff;
+  width: 62px;
+  height: 50px;
+  background-color: rgb(0, 126, 0);
+  font-size: 21px;
+  margin: 3.5px 30px;
+  font-weight: 800;
+  font-family: sans-serif;
+  border-radius: 15px;
+  border: 0.5px solid rgb(0, 255, 128);
+  color: #ffffff;
+  cursor: pointer;
+}
+.header__style:hover {
+  background-color: rgb(0, 139, 0);
+}
+.header__servic {
+  margin-bottom: 22px;
+}
+.header__card {
+  width: 100%;
+  height: 290px;
+}
+.header__color:last-child:hover {
+  background: rgb(255, 98, 0);
+}
+.header__color {
+  background-color: rgb(242, 101, 14);
+  border: 0.5px solid rgb(136, 255, 0);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Contible" content="IE-edge">
+    <meta name="viewport" content="width,intial-scale=1.0">
+    <title>New project for example</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./image/natali-hordiiuk-LsOocQperTk-unsplash.png">
+</head>    
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__start">
+                <form action="post" class="header__form" method="post">
+                    <h2 class="header__text">Simple Calculator</h2>
+                    <input class="header__servic" type="text" id="display" placeholder="0"><br>
+                    <div class="header__card">
+                    <input class="header__style" type="button" value="7" onclick="addToDisplay(7)">
+                    <input class="header__style" type="button" value="8" onclick="addToDisplay(8)">
+                    <input class="header__style" type="button" value="9" onclick="addToDisplay(9)">
+                    <input class="header__style" type="button" value=":" onclick="addToDisplay('/')"><br>
+                    <input class="header__style" type="button" value="4" onclick="addToDisplay(4)">
+                    <input class="header__style" type="button" value="5" onclick="addToDisplay(5)">
+                    <input class="header__style" type="button" value="6" onclick="addToDisplay(6)">
+                    <input class="header__style" type="button" value="x" onclick="addToDisplay('*')"><br>
+                    <input class="header__style" type="button" value="1" onclick="addToDisplay(1)">
+                    <input class="header__style" type="button" value="2" onclick="addToDisplay(2)">
+                    <input class="header__style" type="button" value="3" onclick="addToDisplay(3)">
+                    <input class="header__style" type="button" value="-" onclick="addToDisplay('-')"><br>
+                    <input class="header__style" type="button" value="0" onclick="addToDisplay(0)">
+                    <input class="header__style" type="button" value="," onclick="addToDisplay('.')">
+                    <input class="header__style" type="button" value="+" onclick="addToDisplay('+')">
+                    <input class="header__style" type="button" value="=" onclick="calculate()"><br>
+                    <input class="header__style header__color" type="button" value="C" onclick="clearDisplay()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="./style/app.js"></script>
+</body>
+</html>
